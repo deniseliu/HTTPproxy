@@ -1,0 +1,45 @@
+0: "GET http://addons.g-fox.cn/ntab.gif?c=ntab&t=homepage&a=override&d=defaultVal&f=&r=0.9069363193124005&cid=stub.firefox.com.cn HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+1: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+2: "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+2: not in cache
+1: Responding "HTTP/1.1 200 OK"
+2: Responding "HTTP/1.1 200 OK"
+2: Tunnel closed
+3: "CONNECT tracking.firefox.com.cn:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+5: "CONNECT safebrowsing.googleapis.com:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+5: Responding "HTTP/1.1 200 OK"
+6: "CONNECT bookmarks-ssl.firefoxchina.cn:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+7: "CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+8: "GET http://addons.g-fox.cn/coba-webext.gif?action=disconnect&random=0.8139437683510564 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:17
+7: Responding "HTTP/1.1 200 OK"
+3: Responding "HTTP/1.1 200 OK"
+1: Tunnel closed
+13: "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:18
+13: not in cache
+13: Responding "HTTP/1.1 200 OK"
+13: Tunnel closed
+14: "POST http://ocsp.pki.goog/gts1o1core HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:18
+14: Responding "HTTP/1.1 200 OK"
+14: Tunnel closed
+8: not in cache
+8: Responding "HTTP/1.1 200 OK"
+8: Tunnel closed
+16: WARNING Invalid Request
+18: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:19
+18: Responding "HTTP/1.1 200 OK"
+19: "HEAD http://110.242.68.4/ HTTP/1.1" from 221.11.20.168 @ 2021-03-07.13:27:19
+18: Tunnel closed
+0: not in cache
+3: Tunnel closed
+5: Tunnel closed
+0: Responding "HTTP/1.1 200 OK"
+0: Tunnel closed
+6: Responding "HTTP/1.1 200 OK"
+6: Tunnel closed
+20: WARNING Invalid Request
+21: "CONNECT www.baidu.com:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:21
+21: Responding "HTTP/1.1 200 OK"
+21: Tunnel closed
+17: WARNING Invalid Request
+22: "CONNECT www.baidu.com:443 HTTP/1.1" from 223.107.226.128 @ 2021-03-07.13:27:21
+23: WARNING Invalid Request
