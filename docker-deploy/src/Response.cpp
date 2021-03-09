@@ -31,7 +31,7 @@ std::vector<std::string> Response::split(std::string line, char delimiter){
   }
 
 bool Response::checkFormat(){
-  if(splitLine.size()!=3){
+  if(splitLine.size()!=3&&splitLine.size()!=4){
       return false;
     }
   std::cout<<"size is :"<<splitLine.size()<<"\n";
