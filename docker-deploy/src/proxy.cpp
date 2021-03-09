@@ -499,13 +499,13 @@ void proxy::handlePost(int server_fd,std::string r, int client_fd, int ID){
   std::vector<std::vector<char>> res;
   res = ask_reply(r,server_fd);
   Response resp(res);
-  /*
+  
   if(!resp.checkFormat()){
     std::cout<<"Bad gateway\n";
     send(client_fd,"HTTP/1.1 502 Bad Gateway\r\n\r\n",28,0);
     return;
   }
-  */
+  
   int send_len;
   if((send_len=sendMessage(client_fd,res))>0){
     pthread_mutex_lock(&mutex);
