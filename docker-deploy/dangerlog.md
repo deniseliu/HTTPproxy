@@ -11,7 +11,7 @@
 
 **Exception**:
 
-- We implement smart pointer unique_ptr and our exception guarantee  is strong.
+- If there is some thing wrong when create socket or have error when recieve or send messgae, our code won't throw exceptions.
 
 **Handle external failures**:
 
